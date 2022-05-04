@@ -1,7 +1,7 @@
 import React from "react";
 
 const Total =({items,changePage})=>{
-    var totl=25*items['a']+170*items['b']+220*items['c']+270*items['d']+210*items['e'];
+    var totl=25*items['a']+170*items['b']+220*items['c']+270*items['d']+210*items['e']+200*items['f']+180*items['g'];
     if(totl!=0){
         return (
             <div className=" border-2 flex justify-center bg-yellow-300 p-5 ">

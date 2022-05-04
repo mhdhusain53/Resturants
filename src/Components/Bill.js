@@ -3,7 +3,7 @@ import Data from "./Data";
 import Order from "./Order";
 
 const Bill =(props)=>{
-    const total = props.items['a']*25+props.items['b']*170+props.items['c']*220+props.items['d']*270+props.items['e']*210;
+    const total = props.items['a']*25+props.items['b']*170+props.items['c']*220+props.items['d']*270+props.items['e']*210+200*props.items['f']+180*props.items['g'];
     console.log("items: ",props.items);
     let item = window.localStorage.getItem("items");
     window.localStorage.setItem("items",props.items);

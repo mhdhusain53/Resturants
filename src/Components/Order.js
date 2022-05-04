@@ -14,6 +14,8 @@ class Order extends React.Component{
             'c':0,
             'd':0,
             'e':0,
+            'f':0,
+            'g':0,
             page:true
         }
     }
@@ -52,6 +54,18 @@ class Order extends React.Component{
                 this.setState({
             
                     'e':this.state[props]+1
+                });
+                break;
+            }case 'f':{
+                this.setState({
+            
+                    'f':this.state[props]+1
+                });
+                break;
+            }case 'g':{
+                this.setState({
+            
+                    'g':this.state[props]+1
                 });
                 break;
             }
@@ -94,6 +108,20 @@ class Order extends React.Component{
                 this.setState({
             
                     'e':this.state[props]-1
+                });
+                break;
+            }
+            case 'f':{
+                this.setState({
+            
+                    'f':this.state[props]-1
+                });
+                break;
+            }
+            case 'g':{
+                this.setState({
+            
+                    'g':this.state[props]-1
                 });
                 break;
             }

@@ -37,6 +37,20 @@ const Data = [
         rating:4.2,
         price:210,
         id:'e'
+    },{
+        imageSRC:"./images/65.jpg",
+        imageALT:"Chicken65",
+        recipeName:"Chicken 65    ",
+        rating:4.2,
+        price:200,
+        id:'f'
+    },{
+        imageSRC:"./images/veg-kolhapuri.jpg",
+        imageALT:"Veg_kolhapuri",
+        recipeName:"Veg Kolhapuri",
+        rating:4.2,
+        price:180,
+        id:'g'
     }
 ]
 
