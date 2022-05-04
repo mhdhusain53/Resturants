@@ -9,7 +9,7 @@ const Data = [
         id:'a'
     },
     {
-        imageSRC:"images/paneerTikka.jpeg",
+        imageSRC:"images/PaneerTikka.jpeg",
         imageALT:"butterchicken",
         recipeName:"Paneer Tikka ",
         rating:4.2,
